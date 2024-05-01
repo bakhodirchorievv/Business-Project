@@ -15,7 +15,7 @@ body {
 }
 .header-wrapper {
 	width: 100%;
-	padding: 40px 0;
+	padding: 0px 0 40px;
 	position: relative;
 }
 .header {
@@ -25,10 +25,8 @@ body {
 	color: white;
 	margin: 0 auto;
 	user-select: none;
-}
-.heade-img {
-	height: 59px;
-	width: 52px;
+	padding: 50px 0;
+	margin: 0px 72.5px;
 }
 .ul-wrapper {
 	display: flex;
@@ -37,6 +35,9 @@ body {
 	flex-wrap: wrap;
 	font-size: 15px;
 	color: rgba(117, 127, 147, 1);
+}
+.list-item {
+	cursor: pointer;
 }
 .list-item:first-child {
 	color: white;
@@ -125,7 +126,6 @@ button {
 /* background effect end */
 
 .components {
-	/* max-width: 1205px; */
 	margin: 50px 0 40px 0px;
 	display: flex;
 	gap: 42px;
@@ -830,4 +830,161 @@ button {
 	line-height: 18.06px;
 	letter-spacing: 2%;
 	margin-top: 26px;
+}
+
+/* contacts start */
+.contacts-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 72.5px 170px;
+	padding: 45px 20px 75px 75px;
+	background-color: rgba(32, 35, 43, 1);
+	border-radius: 16px;
+	position: relative;
+}
+
+.contact-title {
+	font-size: 60px;
+	line-height: 65px;
+	font-weight: 600;
+	color: white;
+	margin-bottom: 30px;
+}
+.yellow-contact {
+	color: rgba(251, 236, 28, 1);
+}
+
+.ul-contact {
+	list-style: none;
+	margin-top: 30px;
+}
+
+.contact-name {
+	color: rgba(251, 236, 28, 1);
+	font-size: 15px;
+	line-height: 19.35px;
+}
+
+.exact-info {
+	margin-top: 5px;
+	font-size: 17px;
+	line-height: 21.93px;
+	color: rgba(117, 127, 147, 1);
+}
+
+.contact-right {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 45px;
+}
+
+.vector-contact,
+.thunder,
+.sticky {
+	position: absolute;
+}
+
+.vector-contact {
+	bottom: 0;
+	right: 0;
+}
+
+.thunder {
+	top: 14px;
+	left: 47%;
+}
+
+.sticky {
+	bottom: -20%;
+	left: 20%;
+}
+
+/* about company start */
+.about-company-wrapper {
+	margin: 0 72.5px 300px;
+	text-align: right;
+}
+
+.about-company-img {
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: 55px;
+}
+
+/* ready cases start*/
+.ready-cases-wrapper {
+	margin: 0 72.5px 100px;
+}
+
+.ready-case-img {
+	display: block;
+	margin-left: auto;
+	margin-right: 55px;
+	width: 83%;
+}
+
+.cards-wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+
+.card-item {
+	width: 32%;
+	background-color: rgba(32, 35, 43, 1);
+	border-radius: 80px 80px 50px 50px;
+	margin-top: 10px;
+}
+
+.valor {
+	color: white;
+	font-size: 35px;
+	line-height: 45.15px;
+	font-weight: 400;
+}
+.valor-desc {
+	font-size: 18px;
+	line-height: 23.22px;
+	font-weight: 400;
+	color: rgba(251, 236, 28, 1);
+	margin: 15px 0;
+}
+
+.empty-place {
+	background-color: white;
+	border-radius: 80px;
+	width: 100%;
+	height: 353px;
+}
+
+.card-bottom {
+	padding: 25px 22px 40px 22px;
+}
+
+.card-img-item {
+	width: 158px;
+	height: 78px;
+	margin: 8px;
+}
+
+/* display control */
+.mainPageWrapper {
+	display: block;
+}
+.contacts-wrapper {
+	display: none;
+}
+.about-company-wrapper {
+	display: none;
+}
+.ready-cases-wrapper,
+.titlle {
+	display: none;
+}
+.vremya {
+	display: block;
 }
